@@ -1,11 +1,10 @@
 #!/bin/bash
-while getopts "k:s:r:e:" options
+while getopts "k:s:r:" options
 do
    case "$options" in
       k) aws_access_key_id="$OPTARG";;
       s) aws_secret_access_key="$OPTARG";;
       r) region="$OPTARG";;
-      e) environment="$OPTARG";;
    esac
 done
 
