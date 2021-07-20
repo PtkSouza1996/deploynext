@@ -1,9 +1,3 @@
-## Build Image
-
-```console
-foo@cli:~$ docker build -t deploy-terraform-aws .
-```
-
 ## Run
 
 ```console
