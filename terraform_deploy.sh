@@ -15,6 +15,6 @@ export AWS_DEFAULT_REGION="$region"
 cd ./src
 
 # terraform destroy
-terraform init -backend=true -backend-config="enviroment.hcl
+terraform init
 terraform plan
 terraform apply -auto-approve
